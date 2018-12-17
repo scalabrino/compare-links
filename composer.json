@@ -1,0 +1,6 @@
+{
+    "require": {
+        "ext-mbstring": "*",
+        "shark/simple_html_dom": "dev-master"
+    }
+}

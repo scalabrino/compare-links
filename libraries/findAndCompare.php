@@ -1,6 +1,4 @@
 <?php
-	require_once('simple_html_dom.php');
-	
 	class findAndCompare{
 		public function findAndCompare($urls = []){
 			// Find links

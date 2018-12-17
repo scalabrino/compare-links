@@ -1,5 +1,6 @@
 <?php
 	define('URL_LENGTH', 2);
+	include_once('vendor/autoload.php');
 	include_once('libraries/checkUrl.php');
 ?><!DOCTYPE html>
 <html>
