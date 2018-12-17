@@ -1,7 +1,7 @@
 <?php
 	if(isset($_POST['url'])){
 		$urls = $_POST['url'];
-		if(count($urls) >= 2){
+		if(count($urls) >= URL_LENGTH){
 			$findAndCompare = true;
 			foreach($urls as $url){
 				if(!filter_var($url, FILTER_VALIDATE_URL)){

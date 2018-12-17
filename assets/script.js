@@ -66,7 +66,7 @@ function wordPositions(object){
 		if(labels[i].htmlFor == id){
 			if(value.length > 0){
 				for(var e=0; e<value.length; e++){
-					position = alphabet.indexOf(value[e]) + 1;
+					position = alphabet.indexOf(value[e].toLowerCase()) + 1;
 					if(position > 0){
 						composition.push(position);
 					}
